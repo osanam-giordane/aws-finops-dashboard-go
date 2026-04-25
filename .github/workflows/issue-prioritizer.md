@@ -35,7 +35,7 @@ When an issue is opened, edited, or reopened:
 1. Read the triggering issue title, body, comments, labels, and existing repository context available through the GitHub tools.
 2. Classify the issue into exactly one priority:
    - `priority: critical` — production-blocking outage, security vulnerability, data loss, broken release, or no viable workaround.
-   - `priority: high` — major user impact, important AWS cost visibility problem, regression, or urgent operational risk with a workaround.
+   - `priority: high` — major user impact, important cost visibility or operational problem, regression, or urgent operational risk with a workaround.
    - `priority: medium` — normal bug, enhancement, documentation gap, or usability issue that affects planned work but is not urgent.
    - `priority: low` — minor cleanup, nice-to-have improvement, unclear request, or low-impact maintenance.
 3. Remove any existing priority labels from the list above that do not match the selected priority.
