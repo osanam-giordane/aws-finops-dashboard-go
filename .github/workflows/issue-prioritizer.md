@@ -47,7 +47,7 @@ When an issue is opened, edited, or reopened:
 - Use GitHub-flavored markdown in comments.
 - Start comment headers at h3 (`###`) if a header is needed.
 - Keep the rationale brief and actionable.
-- If the issue lacks enough information, choose `priority: low`, explain what information is missing, and avoid making unsupported assumptions.
+- If the issue lacks enough information to assess urgency or impact, choose `priority: low` as a temporary triage priority, explain what information is missing in the comment, and avoid making unsupported assumptions.
 - Do not change issue title, body, milestone, status, or assignees.
 - Do not prioritize pull requests.
 - Treat bot and automation activity as tools used by humans; credit humans where relevant.
