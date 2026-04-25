@@ -3,19 +3,20 @@ description: Prioritizes newly opened or edited issues with priority labels and 
 on:
   issues:
     types: [opened, edited, reopened]
-roles: all
+  roles: all
 permissions:
   contents: read
   issues: read
+  pull-requests: read
 tools:
   github:
     toolsets: [default]
 safe-outputs:
   add-labels:
-    allowed: [priority: critical, priority: high, priority: medium, priority: low]
+    allowed: ["priority: critical", "priority: high", "priority: medium", "priority: low"]
     max: 1
   remove-labels:
-    allowed: [priority: critical, priority: high, priority: medium, priority: low]
+    allowed: ["priority: critical", "priority: high", "priority: medium", "priority: low"]
     max: 3
   add-comment:
     max: 1
